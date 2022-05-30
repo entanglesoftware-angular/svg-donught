@@ -105,6 +105,37 @@
           }
         }
       }
+    },
+    "svg-donught": {
+      "projectType": "library",
+      "root": "projects/svg-donught",
+      "sourceRoot": "projects/svg-donught/src",
+      "prefix": "ng",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/svg-donught/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/svg-donught/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/svg-donught/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/svg-donught/src/test.ts",
+            "tsConfig": "projects/svg-donught/tsconfig.spec.json",
+            "karmaConfig": "projects/svg-donught/karma.conf.js"
+          }
+        }
+      }
     }
   },
   "defaultProject": "donught-svg"
