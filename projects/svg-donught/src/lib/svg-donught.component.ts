@@ -88,9 +88,6 @@ export class SvgDonughtComponent implements OnChanges {
         const singleSegmentColor = donughtSegmentArr[0].strokeColor;
         const defaultSegmentColor = this.donughtSvgConfig.defaultRingColor!;
 
-        console.log(singleSegmentColor, defaultSegmentColor);
-        console.log(donughtSegmentArrayConfig);
-
         donughtSegmentArrayConfig.forEach((donughtSegmentConfig, index) => {
           if (
             donughtSegmentConfig.segmentPercentage == singleSegmentPercent &&
@@ -104,7 +101,6 @@ export class SvgDonughtComponent implements OnChanges {
         });
         // Change the default color here
         this.donughtSvgConfig.defaultRingColor = singleSegmentColor;
-        console.log(donughtSegmentArrayConfig);
       } else {
         donughtSegmentArrayConfig = reversedSegmentArrayConfig
           .concat(donughtSegmentArrayConfig)
