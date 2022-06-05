@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { SvgDonughtComponent } from './svg-donught.component';
 
 @NgModule({
   declarations: [SvgDonughtComponent],
-  imports: [BrowserModule],
+  imports: [CommonModule],
   exports: [SvgDonughtComponent],
 })
 export class SvgDonughtModule {}
