@@ -2,9 +2,7 @@
 
 ## A responsive svg library for donut formation
 
-[![Visitors](https://visitor-badge.glitch.me/badge?page_id=yushi1007.yushi1007)](https://www.yushi.dev/)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fentanglesoftware-angular%2Fsvg-donught&labelColor=%231a214d&countColor=%23bb3624&style=flat)
 
 Svg Donught is an angular based lightweight library used for making donut chart with svg which make it extra-ordinary responsive even for the mobiile view. You will have full control over the chart.
 
@@ -12,14 +10,16 @@ Svg Donught is an angular based lightweight library used for making donut chart 
 
 You can find the demo link [here](https://entanglesoftware-angular.github.io/svg-donught/)
 
+Made with <svg viewBox="0 0 1792 1792" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" style="height: 0.8rem;"><path d="M896 1664q-26 0-44-18l-624-602q-10-8-27.5-26T145 952.5 77 855 23.5 734 0 596q0-220 127-344t351-124q62 0 126.5 21.5t120 58T820 276t76 68q36-36 76-68t95.5-68.5 120-58T1314 128q224 0 351 124t127 344q0 221-229 450l-623 600q-18 18-44 18z" fill="#bb3624"></path></svg> by [Entangle Software Private Limited][espl]
+
 ## Installation
 
 `npm i svg-donught`
 
 ## Usage
 
-1.  Register the `SvgDonughtModule` module into correct module (e.g app.module.ts)
-    > `import { SvgDonughtModule } from 'svg-donught';`
+1. Register the `SvgDonughtModule` module into correct module (e.g app.module.ts)
+   > `import { SvgDonughtModule } from 'svg-donught';`
 
 ```typescript
 import { NgModule } from "@angular/core";
@@ -259,12 +259,23 @@ MIT
 
 Want to stay tuned for latest updates or share feedbacks. Follow us at following:
 
-<a href="https://www.linkedin.com/in/yushi95/"><img align="left" src="https://raw.githubusercontent.com/yushi1007/yushi1007/main/images/linkedin.svg" alt="Yu Shi | LinkedIn" width="21px"/></a>
-<a href="https://instagram.com/yushi.95"><img align="left" src="https://raw.githubusercontent.com/yushi1007/yushi1007/main/images/instagram.svg" alt="Yu Shi | Instagram" width="21px"/></a>
-<a href="https://yushi95.medium.com/"><img align="left" src="https://raw.githubusercontent.com/yushi1007/yushi1007/main/images/medium.svg" alt="Yu Shi | Medium" width="21px"/></a>
-</br>
+<a href="https://twitter.com/espl_software">
+  <img src="https://entanglesoftware-angular.github.io/svg-donught/assets/social/twitter.svg" alt="Entangle Software Private Limited | Twitter" width="32px"/>
+</a>
+<a href="https://github.com/entanglesoftware">
+  <img src="https://entanglesoftware-angular.github.io/svg-donught/assets/social/github.svg" alt="Entangle Software Private Limited | Github" width="32px"/>
+</a>
+<a href="https://linkedin.com/company/entangle-software">
+  <img src="https://entanglesoftware-angular.github.io/svg-donught/assets/social/linkedin.svg" alt="Entangle Software Private Limited | LinkedIn" width="32px"/>
+</a>
+<a href="https://www.instagram.com/entanglesoftware">
+  <img src="https://entanglesoftware-angular.github.io/svg-donught/assets/social/instagram.svg" alt="Entangle Software Private Limited | Instagram" width="32px"/>
+</a>
+<a href="https://www.facebook.com/profile.php?id=100075464648655">
+  <img src="https://entanglesoftware-angular.github.io/svg-donught/assets/social/facebook.svg" alt="Entangle Software Private Limited | Facebook" width="32px"/>
+</a>
 
-💬 If you have any question/feedback, please do not hesitate to reach out to me at tech@entanglesoftware.com
+💬 If you have any question/feedback, please do not hesitate to reach out to us at tech@entanglesoftware.com
 
 ## 📈 GitHub Stats
 
@@ -286,3 +297,4 @@ Want to stay tuned for latest updates or share feedbacks. Follow us at following
 [plod]: https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md
 [plme]: https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md
 [plga]: https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md
+[espl]: https://entanglesoftware.com
